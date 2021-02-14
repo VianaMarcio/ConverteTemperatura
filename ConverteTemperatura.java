@@ -5,7 +5,7 @@ public class ConverteTemperatura {
         final int DIFERENCA = 32;
         final double DIVISAO =  5/9.0;
         double temperaturaF = 190.0;
-        double temperaturaC = (temperaturaF - diferenca) * divisao;
+        double temperaturaC = (temperaturaF - DIFERENCA) * DIVISAO;
         System.out.print(temperaturaC);
     }
 }
